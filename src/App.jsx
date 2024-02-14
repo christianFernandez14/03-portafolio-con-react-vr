@@ -1,8 +1,9 @@
+import RouterPrincipal from "./routers/RouterPrincipal"
 
-const  App = () =>  {
+const App = () => {
   return (
     <>
-      <h2>From App components</h2>
+      <RouterPrincipal />
     </>
   )
 }
