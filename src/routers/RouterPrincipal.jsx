@@ -14,7 +14,6 @@ const RouterPrincipal = () => {
       {/* Header y Navegacion */}
       <HeaderNav />
 
-      <hr />
       {/* Contenedo central */}
       <Routes>
         <Route path='/' element={<Inicio />} />

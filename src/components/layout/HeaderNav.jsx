@@ -2,11 +2,13 @@
 import { NavLink } from "react-router-dom"
 
 const HeaderNav = () => {
+
+  const usuario = 'christian fernandez'
   return (
     <header className="header">
       <div className="logo">
-        <span>C</span>
-        <h3>Nombre usuario Portafolio</h3>
+        <span>{usuario[0]}</span>
+        <h3>{`${usuario} web`}</h3>
       </div>
       <nav>
         <ul>

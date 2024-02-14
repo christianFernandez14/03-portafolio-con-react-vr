@@ -17,11 +17,30 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 3px solid #090999;
+  margin-bottom: 35px;
 
 }
 
 .header .logo{
   flex-grow: 1;
+  display: flex;
+}
+
+.header .logo span{
+  display: block;
+  font-size: 90px;
+  font-weight: bolder;
+  margin-right: 10px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
+
+.header .logo h3{
+  flex-basis: 92px;
+  text-transform: capitalize;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .header nav{
@@ -38,7 +57,7 @@ a{
 .header li {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .header li a {
@@ -51,5 +70,5 @@ a{
 }
 
 .active{
-  color: #090999;
+  color: #090999;  
 }
