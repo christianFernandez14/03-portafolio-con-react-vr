@@ -15,16 +15,17 @@ const RouterPrincipal = () => {
       <HeaderNav />
 
       {/* Contenedo central */}
-      <Routes>
-        <Route path='/' element={<Inicio />} />
-        <Route path='/inicio' element={<Inicio />} />
-        <Route path='/portafolio' element={<Portafolio />} />
-        <Route path='/servicios' element={<Servicios />} />
-        <Route path='/curriculum' element={<Curriculum />} />
-        <Route path='/contacto' element={<Contacto />} />
-      </Routes>
+      <section className='content'>
+        <Routes>
+          <Route path='/' element={<Inicio />} />
+          <Route path='/inicio' element={<Inicio />} />
+          <Route path='/portafolio' element={<Portafolio />} />
+          <Route path='/servicios' element={<Servicios />} />
+          <Route path='/curriculum' element={<Curriculum />} />
+          <Route path='/contacto' element={<Contacto />} />
+        </Routes>
+      </section>
 
-      <hr />
       {/* Footer */}
       <Footer />
 

@@ -5,7 +5,7 @@ const Footer = () => {
   const yearNow = year.getFullYear()
 
   return (
-    <footer>
+    <footer className='footer'>
       Portafolio Christian Fernandez &copy; Máster en React - {yearNow}
     </footer>
   )
