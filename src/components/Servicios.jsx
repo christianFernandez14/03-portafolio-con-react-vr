@@ -3,7 +3,7 @@
 const Servicios = () => {
   return (
     <div className="page">
-      <h1>Servicios</h1>
+      <h1 className="heading">Servicios</h1>
 
       <section className="services">
 
