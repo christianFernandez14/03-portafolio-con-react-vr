@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 import HeaderNav from '../components/layout/HeaderNav'
 import Inicio from '../components/Inicio'
@@ -17,7 +17,7 @@ const RouterPrincipal = () => {
       {/* Contenedo central */}
       <section className='content'>
         <Routes>
-          <Route path='/' element={<Inicio />} />
+          <Route path='/' element={<Navigate to={'/inicio'}/>} />
           <Route path='/inicio' element={<Inicio />} />
           <Route path='/portafolio' element={<Portafolio />} />
           <Route path='/servicios' element={<Servicios />} />
