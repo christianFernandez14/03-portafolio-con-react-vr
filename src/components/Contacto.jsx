@@ -1,7 +1,17 @@
 
 const Contacto = () => {
   return (
-    <div>Contacto</div>
+    <div className="page">
+      <h1>Contacto</h1>
+
+      <form className="contact" action="mailto:christian14@gmail.com">
+        <input type="text" placeholder="Nombre" />
+        <input type="text" placeholder="Apellido" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Motivo de contacto" />
+        <input type="submit" value="enviar consulta" />
+      </form>
+    </div>
   )
 }
 
