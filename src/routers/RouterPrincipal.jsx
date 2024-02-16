@@ -13,10 +13,7 @@ import Footer from '../components/layout/Footer'
 const RouterPrincipal = () => {
   return (
     <BrowserRouter>
-      {/* Header y Navegacion */}
       <HeaderNav />
-
-      {/* Contenedo central */}
       <section className='content'>
         <Routes>
           <Route path='/' element={<Navigate to={'/inicio'}/>} />
@@ -29,10 +26,7 @@ const RouterPrincipal = () => {
           <Route path='*' element={<ErrorPage />} />
         </Routes>
       </section>
-
-      {/* Footer */}
       <Footer />
-
     </BrowserRouter>
   )
 }

@@ -29,8 +29,6 @@ const Proyecto = () => {
         <a href={`https://${url}`} target='_blank'>Ir al proyecto</a>
         <Link to='/portafolio'>Regresar al portafolio</Link>
       </div>
-
-
     </div>
   )
 }

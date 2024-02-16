@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom"
-
 import { trabajos } from '../data/trabajos'
 
-// Esta linea es para dejarlo por defecto la cantidad que se mostraria
-// const ListadoTrabajos = ({ limites = 10 }) => {
 const ListadoTrabajos = ({ limites }) => {
   return (
     <section className='works'>
