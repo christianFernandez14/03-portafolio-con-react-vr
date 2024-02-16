@@ -100,7 +100,7 @@ a {
   color: #a8a8a8;
 }
 
-.home a {
+.home .title a {
   padding: 3px;
   border-radius: 10px;
   background-color: #fa4529;
@@ -110,7 +110,7 @@ a {
   transition: all 300ms;
 }
 
-.home a:hover,
+.home .title a:hover,
 input[type="submit"]:hover,
 button:hover {
   background-color: #1a891a;
@@ -213,8 +213,14 @@ button {
   border-top: 1px solid #ddd;
 }
 
-.page-work .mask{
+.page-work .mask {
   height: 300px;
   overflow: hidden;
-  box-shadow: 0 5px 18px rgb(0,0,0,.3);
+  box-shadow: 0 5px 18px rgb(0, 0, 0, 0.3);
+}
+
+.mask-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

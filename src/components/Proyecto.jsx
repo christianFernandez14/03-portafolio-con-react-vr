@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import { useParams } from 'react-router-dom'
-import { trabajos } from '../data/trabajos';
+import { trabajos } from '../data/trabajos'
 
 const Proyecto = () => {
 
@@ -24,7 +25,10 @@ const Proyecto = () => {
       <h1 className="heading">{nombre}</h1>
       <p>{tecnologias}</p>
       <p>{descripcion}</p>
-      <a href={`https://${url}`} target='_blank'>Ir al proyecto</a>
+      <div className='mask-link'>
+        <a href={`https://${url}`} target='_blank'>Ir al proyecto</a>
+        <Link to='/portafolio'>Regresar al portafolio</Link>
+      </div>
 
 
     </div>
